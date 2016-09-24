@@ -1,0 +1,106 @@
+body {
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+img {
+	margin-top: 25px;
+	margin-left: -10px;
+	border: 0;
+}
+
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background-color: #2c4066;
+	border-bottom: 1px solid #e6e6e6;
+	padding: 3px 0;
+
+}
+#header > div{
+	width: 920px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+/** Navigation **/
+#navigation {
+	display: inline-block;
+	list-style: none;
+	line-height: 35px;
+	margin-left: 160px;
+	padding: 0;
+}
+#navigation ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+	width: 135px;
+	text-align: left;
+}
+#navigation li a {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 130px;
+	text-decoration: none;
+}
+#navigation li a:hover {
+	color: #00a2ff;
+}
+#navigation li.active a {
+	color: #f99600;
+}
+
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	min-height: 510px;
+	width: 880px;
+	margin: 0 auto;
+	padding: 54px 40px;
+}
+
+#container{
+	display:flex;
+}
+
+
+
+
+/*-------------------------------FOOTER-------------------------------------*/
+footer{
+	padding:10px;
+	min-height: 30px;
+	background-color: #2c4066;
+	color:#ffffff;
+}
+
+#login{
+	margin-top: 43px;
+
+}
+.tb8 {
+	font-size: 17px;
+	margin-top: 5px;
+	height:30px;
+	width: 230px;
+	border: 1px solid #2c4066;
+	border-left: 4px solid #2c4066;
+	text-align: center;
+}
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 17px;
+  background: #2c4066;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:solid;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
